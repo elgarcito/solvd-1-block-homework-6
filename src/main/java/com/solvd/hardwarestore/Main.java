@@ -19,16 +19,15 @@ ProductSupplier: the one that sells the product.
 Client: the one that buys the product.
  */
 
-import com.solvd.hardwarestore.customlinkedlist.CustomLinkedList;
+import com.solvd.hardwarestore.custom_linkedlist.CustomLinkedList;
 import com.solvd.hardwarestore.exceptions.AutoCloseableNoResource;
-import com.solvd.hardwarestore.finalclasess.PayingRates;
+import com.solvd.hardwarestore.final_clasess.PayingRates;
 import com.solvd.hardwarestore.person.BigClient;
 import com.solvd.hardwarestore.person.Employee;
 import com.solvd.hardwarestore.person.ProductSupplier;
 import com.solvd.hardwarestore.products.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import com.solvd.hardwarestore.*;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -279,7 +278,5 @@ public class Main {
         electricProductCustomLinkedList.deleteFirstNode();
         electricProductCustomLinkedList.deleteMiddleNode(lightBulb5);
         electricProductCustomLinkedList.printAllData();
-
-
     }
 }
